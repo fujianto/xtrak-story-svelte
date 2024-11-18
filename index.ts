@@ -1,3 +1,5 @@
+#!/usr/bin/env ts-node
+
 import { Project, PropertySignature } from 'ts-morph';
 import fs from 'fs';
 import path from 'path';

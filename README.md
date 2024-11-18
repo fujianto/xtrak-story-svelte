@@ -13,6 +13,7 @@ Generate storybook stories from svelte component automaticly.
 
 ```bash
 brew install pnpm
+pnpm install
 ```
 
 Then follow the step from the installation
@@ -24,4 +25,8 @@ Run this command to generate stories from component.
 ```bash
 #pnpm start (Component Name) (Component path) (Component Title) {Component Interface name}
 pnpm start MyButton ./example/MyButton.svelte Input/MyButton   
+
+or
+
+xtrak-story-svelte MyButton ./example/MyButton.svelte Input/MyButton
 ```

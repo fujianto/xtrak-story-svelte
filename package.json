@@ -1,17 +1,24 @@
 {
     "name": "xtrak-story-svelte",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Generate story from svelte component",
     "main": "index.ts",
+    "bin": {
+        "xtrak-story-svelte": "./index.ts"
+    },
     "scripts": {
-        "start": "ts-node index.ts",
+        "start": "npx ts-node index.ts",
         "test": "test"
     },
     "keywords": [
         "storybook",
         "svelte"
     ],
-    "author": "fujianto",
+    "author": "Fujianto (https://septianfujianto.com)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fujianto/xtrak-story-svelte.git"
+    },
     "license": "MIT",
     "dependencies": {
         "path": "^0.12.7",
